@@ -49,3 +49,9 @@ X_melt <- melt(X_merged, id=the_id, measure.vars = names(X_merged)[c(1:66)])
 
 ## cast X_melt, subject, activity by variable, and aggregate using mean
 X_dcast <- dcast(X_melt, subject + activity ~ variable, mean)
+
+## save tidy data to file
+write.table(X_dcast, file="tidydata.txt",row.names=FALSE)
+
+## to read tidy data file
+## X_dcast_read <- read.table("tidydata.txt",header=TRUE)
