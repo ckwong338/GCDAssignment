@@ -5,7 +5,7 @@
  - a factor with 6 levels, walking, walking upstairs, walking downstairs, sitting, standing, laying
 - the remaining 66 variables are means and standard deviations as described in the features_info.txt file included
   in the zip file containing the [original data set](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).  
-  All these variables are normalised.
+ - these variables are normalised variables
  
 
 ### Processing/transformations
