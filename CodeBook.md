@@ -1,4 +1,8 @@
-## Code Book
+## Code book and transformations performed
+### Code book
+- subject the identifier of the subject, as specified in the files subject_test.txt and subject_train.txt
+- activity a factor describing the activity the subject was performing
+-- sss
 ### Processing/transformations
 The following transformations were performed on the raw data to clean up the data:
  - the training and test data sets were merged into a single data set
