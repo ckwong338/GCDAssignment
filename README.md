@@ -7,7 +7,7 @@ This repository contains a single R script, run_analysis.R, that processes the r
 
 To run the script:
 
-1. call setwd to set the working directory to the folder containing the run_analysis.R script
+1. call ```setwd``` to set the working directory to the folder containing the run_analysis.R script
 2. the UCI HAR Dataset folder should be contained in this same folder
 3. call ```source("run_analysis.R")``` to run the script
 4. the tidy data set will be created in the file tidydata.txt in the same folder
