@@ -14,6 +14,7 @@ The following transformations were performed on the raw data to clean up the dat
  - an ```activity``` variable was added and displayed as a string, that describes the activity the subject was doing
  - a ```subject``` variable was added and displayed as a number, that identifies the subject
  - the column names for the merged data set was updated to the original variable names (with the addition of "activity" and "subject" for the added variables
+ - the variable names containing a double Body, i.e. BodyBody, were cleaned up with the doubled up word removed
  - the non-mean and non-standard deviation variables were dropped
  - all variable names were replaced with more descriptive names
  - the data set was melted identified by the ```subject```, and ```activity```, and measured by the remaining variables
