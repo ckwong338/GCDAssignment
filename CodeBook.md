@@ -1,1 +1,10 @@
-CodeBook
+## Code Book
+### Processing/transformations
+The following transformations were performed on the raw data to clean up the data:
+ - the training and test data sets were merged into a single data set
+ - an activity variable was added and displayed as a string, that describes the activity the subject was doing
+ - a subject variable was added and displayed as a number, that identifies the subject
+ - the column names for the merged data set was updated to the original variable names (with the addition of "activity" and "subject" for the added variables
+ - the non-mean and non-standard deviation variables were dropped
+ - all variable names were replaced with more descriptive names
+ - 
