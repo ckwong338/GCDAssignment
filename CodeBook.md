@@ -1,11 +1,11 @@
 ## Code book and transformations performed
 ### Code book
-- subject the identifier of the subject, as specified in the files subject_test.txt and subject_train.txt
-- activity a factor describing the activity the subject was performing
+- ```subject``` the identifier of the subject, as specified in the files subject_test.txt and subject_train.txt
+- ```activity``` a factor describing the activity the subject was performing
  - a factor with 6 levels, walking, walking upstairs, walking downstairs, sitting, standing, laying
 - the remaining 66 variables are means and standard deviations as described in the features_info.txt file included
   in the zip file containing the [original data set](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).  
-  All these variables are normalized and bounded within [-1,1].
+  All these variables are normalised.
  
 
 ### Processing/transformations
