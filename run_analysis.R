@@ -43,6 +43,11 @@ names(X_merged) <- features$V2
 grepl_results <- grepl("mean\\(\\)|std\\(\\)|activity|subject", features$V2)
 X_merged <- subset(X_merged, select = grepl_results)
 
+## rename variable names with descriptive variable names
+names(X_merged) <- sub("mean\\(\\)", "Mean", names(X_merged))
+names(X_merged) <- sub("std\\(\\)", "StdDev", names(X_merged))
+names(X_merged) <- sub("BodyBody", "Body", names(X_merged))
+
 ## melt X_merged to X_melt, specifying the 66 columns as variable
 the_id <- c("subject", "activity")
 X_melt <- melt(X_merged, id=the_id, measure.vars = names(X_merged)[c(1:66)])
